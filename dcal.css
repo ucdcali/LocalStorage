@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(39, 43, 51);
+}
+
+.bodyHead {
+  color: #8ABAD3FF;
+}
+
+.bodyCopy {
+  color: #D3D3D3;
+}
+
+.character-card {
+  max-width: 350px;
+}
+
+.character-image {
+  width: 100%;
+}
+
+.card-img-container {
+  position: relative;
+}
+
+.card-img-top {
+  display: block;
+  width: 100%;
+  /* or your desired width */
+  height: auto;
+  /* maintain aspect ratio */
+}
+
+.favorite-btn {
+  position: absolute;
+  top: 10px;
+  /* distance from the top */
+  right: 10px;
+  /* distance from the right */
+  border: none;
+  /* remove button border */
+  background-color: transparent;
+  /* no background */
+  font-size: 24px;
+  /* size of the heart */
+  cursor: pointer;
+  /* pointer cursor on hover */
+}
+
+#favHeart {
+  color: #FF414D;
+}
+
+/* Additional styles for button appearance on hover */
+#favHeart:hover {
+  color: #FF717D;
+}
+
+
+
+
+.navbar {
+  background-color: #8ABAD3FF !important;
+}
+
+.searchResultsDiv {
+  display: none;
+  /* Hidden by default */
+  position: absolute;
+  top: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  width: calc(100% - 2rem);
+  /* Assuming form-control has a margin of 1rem */
+  z-index: 1000;
+  /* Make sure it's above other content */
+  max-height: 300px;
+  /* Limit the height */
+  overflow-y: auto;
+  /* Allow scrolling */
+  border-radius: 0 0 4px 4px;
+  /* Optional: Round the bottom corners */
+}
+
+.searchResultsDiv ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.searchResultsDiv li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.searchResultsDiv li:hover {
+  background-color: #f2f2f2;
+}
